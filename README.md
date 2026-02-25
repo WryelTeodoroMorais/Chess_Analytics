@@ -23,11 +23,13 @@ Este projeto realiza uma análise detalhada da performance de jogadores no Chess
 
 ### 1. Clone o Repositório
 ```bash
-git clone https://github.com/WryelTeodoroMorais/chess-analytics.git
-cd chess-analytics
+git clone https://github.com/WryelTeodoroMorais/Chess_Analytics.git
+cd Chess_Analytics
 ```
 
 ### 2. Configure o Ambiente
+
+**Crie um ambiente virtual:**
 Recomenda-se o uso de um ambiente virtual (.venv).
 
 ```bash
@@ -44,9 +46,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Execute a Análise
-Com as dependências instaladas, abra o Jupyter Notebook para visualizar os resultados:
+### 3. Execute a Análise no VS Code
 
-```bash
-jupyter notebook Chess_Analytics.ipynb
-```
+Com as dependências instaladas, siga os passos abaixo:
+
+1. **Abra o arquivo no VS Code:**
+   - Abra a pasta do projeto no VS Code
+   - Localize e abra o arquivo `Chess_Analytics.ipynb`
+
+2. **Selecione o Kernel Python:**
+   - Na parte superior direita do notebook, clique em "Select Kernel"
+   - Escolha a opção de Python que corresponde ao seu ambiente virtual `.venv`
+  
+3. **Execute as Células:**
+   - Clique no botão ▶ (play) que aparece ao lado de cada célula para executar
+   - Ou use o atalho `Ctrl+Enter` para executar a célula atual
+  
